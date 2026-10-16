@@ -1,46 +1,54 @@
-# Awesome-Certificate-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Certificate Management Banner" width="100%" />
+</p>
 
-## Top Certificate Management Ecosystem
+# 🔐 Awesome Certificate Management
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Certificate-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Certificate-Management?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Certificate-Management?style=flat-square" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Certificate-Management?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Top Certificate Management Ecosystem & Automated PKI Directory
 
-*Focused on Certificate Lifecycle Automation, ACME Clients & Private PKI*  
+> **A curated, battle-tested list of enterprise SaaS platforms and open-source GitHub projects for Certificate Lifecycle Management (CLM), ACME client automation (RFC 8555), private PKI authorities, Post-Quantum Cryptography (PQC), and cryptographic discovery.**
 
-**Last updated: October 2026**
+*Last updated: October 2026*
 
+This repository indexes the premier **SaaS platforms** and **open-source repositories** powering modern **Machine Identity Management and Certificate Operations**. These tools enable DevOps teams, SREs, and security engineers to discover, issue, auto-renew, revoke, and monitor TLS/SSL, mTLS, SSH, and code-signing certificates across multi-cloud, on-premise, and Kubernetes estates.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Certificate Management**. These tools enable organizations to issue, renew, revoke, and monitor TLS/SSL certificates across heterogeneous infrastructure—from single Linux servers and Kubernetes clusters to enterprise PKI estates managing hundreds of thousands of machine identities.
+## 📖 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Projects (Ranked by Stars)](#top-projects-ranked-by-stars)
+  - [Enterprise Stacks & Specialized PKI Frameworks](#enterprise-stacks--specialized-pki-frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer & Architectural Insights](#️-disclaimer--architectural-insights)
 
+---
 
-**Examples** include Venafi, AppViewX, Keyfactor, Sectigo Certificate Manager, DigiCert Trust Lifecycle Manager, Entrust Certificate Services, GlobalSign Atlas, AWS Certificate Manager, Azure Key Vault, and HashiCorp Vault (the category leaders).
+## 📊 Sector Overview & Market Dynamics
 
+The global **Certificate Lifecycle Management (CLM) and Machine Identity Security** market is estimated at **$1.8B – $2.2B in 2026** (with the broader digital certificate/PKI sector reaching over **$6.2B**), growing at a compound annual growth rate (**CAGR) of 14.5%–18.5%** toward **$11B+ by 2030**. 
 
+The sector is **moderately fragmented with strong consolidation dynamics**, characterized by a bifurcated competitive landscape: hyperscale cloud providers (AWS, Microsoft Azure) capture universal commodity workloads, while a concentrated cohort of specialized enterprise security titans (CyberArk/Venafi, Keyfactor, DigiCert, Sectigo) battle for high-margin, complex multi-cloud and PQC cryptographic orchestration. As certificate validity spans contract toward 47 days and post-quantum cryptographic mandates loom, automation has evolved from an enterprise convenience into a non-negotiable operational prerequisite.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, ACME automation, and private PKI—ideal for platform engineers, SREs, and security teams seeking transparent, vendor-independent certificate lifecycle management.
+---
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS / Hosted Platforms
 
 | Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier Limits | Key Highlights |
 | :--- | :--- | :--- | :--- | :--- |
@@ -55,147 +63,148 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[GlobalSign Atlas](https://www.globalsign.com/)** | **~$160 Million** market cap (GMO GlobalSign Holdings TYO:3788 / ~¥22.5B–¥27B JPY) | **$199/year** baseline starting certificate packs (enterprise high-throughput Atlas CA via custom tiers) | **No self-serve free tier** (sales-assisted Proof of Concept / sandbox environment upon request) | High-throughput, cloud-based certificate management engine with automated issuance, ACME protocols, and Auto-Enrollment Gateway. |
 | **[AppViewX](https://www.appviewx.com/)** | **~$100 Million** valuation / **~$100M–$133M** annual revenue (Haveli Investments) | **~$15,000/year** entry SaaS tier on AWS Marketplace private offers / pre-packaged CLM | **30-day free trial** for AVX ONE on AWS Marketplace; free container certificate tracking add-on for EKS | PKI and CLM with strong PQC readiness score, Cryptographic Bill of Materials generation, and cloud-delivered automation. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
+All open-source projects are sorted in **descending order by GitHub star count**. Each star badge links directly to the stargazers page of the repository.
 
-## Open-Source GitHub Projects
+### Top Projects (Ranked by Stars)
 
+1. **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+   ⚡ **Modern Web Server with Automatic HTTPS** (Apache-2.0)  
+   The pioneer of default zero-touch TLS automation. Caddy provisions, renews, and staples OCSP responses for certificates out-of-the-box. Features **full ACME Renewal Information (ARI) support** including automatic handling of CA-initiated mass revocation events.
 
+2. **[Traefik](https://github.com/traefik/traefik)** [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+   🚀 **Cloud-Native Reverse Proxy & Ingress Controller** (MIT)  
+   Seamlessly integrates with Docker, Swarm, Kubernetes, Consul, and AWS to dynamically configure routing and negotiate TLS certificates via ACME (Let's Encrypt, ZeroSSL, custom ACME servers).
 
-- **[cert-manager](https://github.com/cert-manager/cert-manager)**  
+3. **[mkcert](https://github.com/FiloSottile/mkcert)** [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/mkcert?style=social&color=white)](https://github.com/FiloSottile/mkcert/stargazers)  
+   🔒 **Zero-Config Tool for Locally-Trusted Development Certificates** (BSD-3-Clause)  
+   Automatically creates and installs a local CA in the system trust store and browser root stores (Firefox, Chrome), issuing valid certificates for `localhost` and local domains with zero configuration.
 
-  **Automatically provision and manage TLS certificates in Kubernetes** (Apache-2.0) . **The de facto standard for Kubernetes certificate management**—CRD-based configuration (`Certificate`, `Issuer`, `ClusterIssuer`), automatic renewal, and broad solver support . **Installed as an operator**—declare a `Certificate` resource and cert-manager handles issuance, renewal, and Secret placement . **Note**: **No ARI support**—after the March–April 2026 mass revocation events, this is a **baseline requirement gap** for production deployments . **The only viable option on Kubernetes despite lacking ARI** .
+4. **[acme.sh](https://github.com/acmesh-official/acme.sh)** [![GitHub stars](https://img.shields.io/github/stars/acmesh-official/acme.sh?style=social&color=white)](https://github.com/acmesh-official/acme.sh/stargazers)  
+   🐚 **Pure Unix Shell ACME Client with Zero External Dependencies** (GPL-3.0)  
+   Ultra-lightweight ACME client compatible with Bash, Dash, and Sh. Features out-of-the-box DNS automation supporting **150+ DNS APIs**, ideal for embedded systems, OpenWrt routers, and shared hosting.
 
+5. **[HashiCorp Vault](https://github.com/hashicorp/vault)** [![GitHub stars](https://img.shields.io/github/stars/hashicorp/vault?style=social&color=white)](https://github.com/hashicorp/vault/stargazers)  
+   🛡️ **Identity-Based Secrets Management & Dynamic PKI Secrets Engine** (BSL-1.1)  
+   Functions as an on-demand private Certificate Authority capable of issuing dynamic, short-lived X.509 certificates with built-in ACME server capabilities and CRL/OCSP management.
 
+6. **[Certbot](https://github.com/certbot/certbot)** [![GitHub stars](https://img.shields.io/github/stars/certbot/certbot?style=social&color=white)](https://github.com/certbot/certbot/stargazers)  
+   📜 **EFF’s Flagship Automated ACME Client** (Apache-2.0)  
+   The reference ACME client maintained by the Electronic Frontier Foundation. Standard tool for Linux servers running Nginx and Apache. Version 4.1.0+ includes partial ACME Renewal Information (ARI) support.
 
-- **[Certbot](https://github.com/certbot/certbot)**  
+7. **[cert-manager](https://github.com/cert-manager/cert-manager)** [![GitHub stars](https://img.shields.io/github/stars/cert-manager/cert-manager?style=social&color=white)](https://github.com/cert-manager/cert-manager/stargazers)  
+   ☸️ **The De Facto Standard Cloud-Native Certificate Controller for Kubernetes** (Apache-2.0)  
+   Manages TLS certificates natively in Kubernetes via Custom Resource Definitions (`Certificate`, `Issuer`, `ClusterIssuer`). Integrates with Let's Encrypt, HashiCorp Vault, Venafi, and external private CAs.
 
-  **The original and most widely deployed ACME client** (Apache-2.0) . **EFF's official client**—the classic choice for Linux + Apache/Nginx with the best documentation and most tutorials . **v4.1.0+ adds partial ARI support**—**upgrading to this version and increasing the systemd timer to every 6 hours is the single highest-impact change most teams can make today** . **The default recommendation for Linux web servers** .
+8. **[lego](https://github.com/go-acme/lego)** [![GitHub stars](https://img.shields.io/github/stars/go-acme/lego?style=social&color=white)](https://github.com/go-acme/lego/stargazers)  
+   🐹 **Pure Go ACME Client Library and CLI** (MIT)  
+   The underlying engine powering ACME in Caddy, Traefik, and countless microservices. Features full ARI support (including replacement tracking) and over 100 DNS challenge providers.
 
+9. **[CFSSL](https://github.com/cloudflare/cfssl)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/cfssl?style=social&color=white)](https://github.com/cloudflare/cfssl/stargazers)  
+   🌐 **Cloudflare's PKI and TLS Toolkit** (BSD-2-Clause)  
+   A battle-tested Go-based suite for signing, verifying, and bundling TLS certificates, serving as an HTTP API-driven PKI daemon and internal CA for high-scale microservices.
 
+10. **[Certimate](https://github.com/certimate-go/certimate)** [![GitHub stars](https://img.shields.io/github/stars/certimate-go/certimate?style=social&color=white)](https://github.com/certimate-go/certimate/stargazers)  
+    🎨 **Open-Source SSL Automation with Visual Workflow Orchestration** (MIT)  
+    Self-hosted CLM providing visual pipelines to apply, renew, and auto-deploy certificates across 70+ domain providers and 160+ target destinations (Cloudflare, AWS, Kubernetes, CDN, WAF) with 20MB RAM footprint.
 
-- **[acme.sh](https://github.com/acmesh-official/acme.sh)**  
+11. **[step-ca (smallstep certificates)](https://github.com/smallstep/certificates)** [![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers)  
+    🔑 **Automated Private Certificate Authority & Zero-Trust PKI** (Apache-2.0)  
+    A versatile private CA supporting ACME, OAuth/OIDC, SCEP, and EST. Built for DevOps, automated microservice mTLS, SSH certificates, and zero-trust perimeter security.
 
-  **Pure Shell ACME client with zero dependencies** (GPL-3.0) . **The lightweight choice**—no Python runtime, no .NET, no Go binary. **Works on embedded systems and shared servers** where other clients can't run . **Broadest DNS provider coverage with 150+ supported providers** . **The best choice for exotic DNS providers and constrained environments** .
+12. **[win-acme](https://github.com/win-acme/win-acme)** [![GitHub stars](https://img.shields.io/github/stars/win-acme/win-acme?style=social&color=white)](https://github.com/win-acme/win-acme/stargazers)  
+    🪟 **ACME Client for Windows Server & IIS** (Apache-2.0)  
+    The premier certificate automation tool for Windows systems with IIS binding management, scheduled tasks, and full ARI support for seamless automated rotation.
 
+13. **[easy-rsa](https://github.com/OpenVPN/easy-rsa)** [![GitHub stars](https://img.shields.io/github/stars/OpenVPN/easy-rsa?style=social&color=white)](https://github.com/OpenVPN/easy-rsa/stargazers)  
+    🗝️ **CLI-Based CA Management Tool** (GPL-2.0)  
+    Maintained by the OpenVPN project, easy-rsa simplifies managing an internal X.509 PKI, creating root/intermediate CAs, key pairs, and certificate revocation lists (CRLs).
 
+14. **[Lemur (Netflix)](https://github.com/Netflix/lemur)** [![GitHub stars](https://img.shields.io/github/stars/Netflix/lemur?style=social&color=white)](https://github.com/Netflix/lemur/stargazers)  
+    🎬 **Enterprise TLS Certificate Orchestration & Inventory Plane** (Apache-2.0)  
+    Netflix's certificate orchestrator acting as a single pane of glass for requesting, tracking, and deploying certificates across AWS IAM, ALB, CloudFront, and internal infrastructure.
 
-- **[lego](https://github.com/go-acme/lego)**  
+15. **[Certify The Web](https://github.com/webprofusion/certify)** [![GitHub stars](https://img.shields.io/github/stars/webprofusion/certify?style=social&color=white)](https://github.com/webprofusion/certify/stargazers)  
+    🖥️ **GUI Certificate Management Client for Windows** (Open-Source Core)  
+    Feature-rich desktop and server UI for managing Let's Encrypt and custom ACME certificates on Windows and IIS servers with built-in deployment scripting.
 
-  **Go-based ACME client and library** (MIT) . **The declarative choice**—YAML/environment configuration for CI/CD pipelines and large-scale infrastructure . **Compiles to a single binary** with no runtime dependencies . **Full ARI support including the replaces field**—handles mass revocation events automatically . **The best choice for large-scale, multi-server deployments** .
+16. **[Certmate](https://github.com/fabriziosalmi/certmate)** [![GitHub stars](https://img.shields.io/github/stars/fabriziosalmi/certmate?style=social&color=white)](https://github.com/fabriziosalmi/certmate/stargazers)  
+    📦 **Lightweight Self-Hosted CLM Daemon** (Open-Source)  
+    Secure, low-privilege systemd background service providing automated discovery, inventory tracking, renewal, and REST API controls for TLS certificates.
 
+17. **[trust-manager](https://github.com/cert-manager/trust-manager)** [![GitHub stars](https://img.shields.io/github/stars/cert-manager/trust-manager?style=social&color=white)](https://github.com/cert-manager/trust-manager/stargazers)  
+    🤝 **Operator for Trust Bundle Distribution across Kubernetes** (Apache-2.0)  
+    A cert-manager sub-project that distributes and harmonizes public and internal root certificates across all Kubernetes namespaces and pods without secret duplication.
 
+18. **[ILM (Identity Lifecycle Management)](https://github.com/OmniTrustILM/ilm)** [![GitHub stars](https://img.shields.io/github/stars/OmniTrustILM/ilm?style=social&color=white)](https://github.com/OmniTrustILM/ilm/stargazers)  
+    🏢 **Modular Enterprise Identity, Vault & CBOM Platform** (Apache-2.0)  
+    Enterprise PKI platform featuring Cryptographic Bill of Materials (CBOM) scanning, RA and Token profiles, cert-manager external issuers, and connectors for EJBCA and MS ADCS.
 
-- **[Certimate](https://github.com/certimate-go/certimate)**  
+19. **[Czertainly](https://github.com/3keycompany/czertainly)** [![GitHub stars](https://img.shields.io/github/stars/3keycompany/czertainly?style=social&color=white)](https://github.com/3keycompany/czertainly/stargazers)  
+    🏛️ **Comprehensive Enterprise CLM Platform** (MIT)  
+    On-premise and containerized CLM supporting hardware security modules (HSM), automated discovery, compliance enforcement, and ACME, EST, and SCEP protocols.
 
-  **Open-source, self-hosted SSL certificate ACME tool with visual workflow orchestration** (MIT) . **The most comprehensive open-source certificate automation platform**—**70+ domain registrars** (AWS, Cloudflare, GoDaddy, Alibaba Cloud, Tencent Cloud), **160+ deployment destinations** (Kubernetes, CDN, WAF, load balancers), **multiple ACME CAs** (Let's Encrypt, Google Trust Services, ZeroSSL, SSL.com), and **multiple notification channels** (email, Discord, Slack, Telegram, DingTalk, Feishu, WeCom) . **Zero dependencies, ~20 MB memory**—binary or Docker deployment . **The best choice for teams wanting visual workflow automation across heterogeneous infrastructure**.
+20. **[PKI Manager Web](https://github.com/oriolrius/pki-manager-web)** [![GitHub stars](https://img.shields.io/github/stars/oriolrius/pki-manager-web?style=social&color=white)](https://github.com/oriolrius/pki-manager-web/stargazers)  
+    🌐 **Self-Hosted Web Interface for Combined X.509 & SSH CAs** (Open-Source)  
+    Integrates OpenSSH User and Host CAs with X.509 issuance, Cosmian KMS private key storage, OIDC single sign-on, and Kubernetes external issuer APIs.
 
-
-
-- **[Certmate](https://github.com/fabriziosalmi/certmate)**  
-
-  **Self-hosted certificate lifecycle management** (open-source) . **Issue, renew, discover, inventory, and deploy TLS certificates** across infrastructure. **Systemd service with restricted permissions**—runs as dedicated `certmate` user with limited filesystem access . **REST API with Bearer token authentication**. **The best choice for teams wanting a full CLM platform with discovery and inventory capabilities**.
-
-
-
-- **[Tiny-PKI](https://pypi.org/project/tiny-pki/)**  
-
-  **A small private certificate authority for mutual TLS on home and internal networks** (open-source) . **Issue a CA and its client and server certificates, revoke them with a CRL, hand them to phones as PKCS#12 bundles, and watch for expiry** . **Two layers**: **Library** (bytes in, bytes out—no filesystem, no global state) and **CLI** (one-shot commands and REPL over a directory CA) . **Name Constraints**—a stolen CA key cannot impersonate public sites . **The most accessible private PKI tool** for home labs and internal networks.
-
-
-
-- **[SimpleCA](https://github.com/waucka/simpleca)**  
-
-  **Simple management tool for private x.509 CAs** (GPLv3) . **The anti-OpenSSL-config tool**—"managing an x.509 PKI without screwing around with OpenSSL config files or writing janky scripts" . **SQLite-backed certificate database**—create root CAs, intermediate CAs, issue server/client certificates, renew, revoke with CRL, and export . **The simplest CLI-based private PKI tool**.
-
-
-
-- **[certmesh](https://pypi.org/project/certmesh/)**  
-
-  **Multi-provider certificate lifecycle automation** (open-source) . **The most provider-diverse open-source tool**—supports **DigiCert CertCentral, Venafi TPP, AWS ACM/ACM-PCA, Let's Encrypt/ACME (RFC 8555)**, and more . **Certificate output to filesystem (mode 0600), Vault KV v1/v2, AWS Secrets Manager, or multiple destinations** . **Circuit breaker** for provider failures. **Prometheus Pushgateway integration** for renewal CronJob observability . **The best choice for multi-CA enterprise environments**.
-
-
-
-- **[ILM (Identity Lifecycle Management)](https://github.com/OmniTrustILM/ilm)**  
-
-  **Open, transparent, flexible, modern platform for identity lifecycle management** (Apache-2.0) . **The most comprehensive open-source enterprise PKI platform**—certificate management through RA Profiles, cryptographic key management through Token Profiles, **secrets management through Vault Profiles** (passwords, API keys, JWT tokens, keystores, key-value pairs with versioning, cross-vault synchronization, approval workflows), **Cryptographic Bill of Materials (CBOM) scanning and repository**, extensible connectors to **EJBCA, MS ADCS, HashiCorp Vault**, discovery providers (network, CT logs, Cryptosense), and **cert-manager external issuer for Kubernetes** . **The most enterprise-ready open-source PKI platform**—microservices architecture, Helm charts, Go SDK, MCP server .
-
-
-
-- **[PKI Manager Web](https://github.com/oriolrius/pki-manager-web)**  
-
-  **Self-hosted web PKI for the full X.509 & SSH certificate lifecycle** (open-source) . **Dual (User + Host) OpenSSH CA** with copy-paste onboarding, per-host deploy bundles, and two-tier KRL revocation . **Private keys in Cosmian KMS**. **OIDC authentication** (Keycloak, Auth0, Okta, Azure AD). **External issuer API for Kubernetes** (`/api/v1/external`). **Python CLI and Ansible Collection** . **The most complete open-source tool for combined X.509 and SSH certificate management**.
-
-
-
-- **[Secutor](https://www.npmjs.com/package/secutor)**  
-
-  **Self-contained PKI toolkit for private certificate authorities** (open-source, NPM) . **The most feature-complete CLI for private PKI**—create CA, issue intermediates, issue server/client certificates, verify chains, revoke, and export PKCS#12 bundles . **Multiple key algorithms**: RSA-2048/3072/4096, ECDSA P-256/P-384, Ed25519 . **Encrypted contexts** with AES-256-GCM . **Registered ACME hubs** with pinned server fingerprints and client-auth handles . **The best choice for developers wanting a full private PKI CLI**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[win-acme](https://github.com/win-acme/win-acme)** — ACME client for Windows/IIS (Apache-2.0). **Full ARI support including the replaces field**—the standard for Windows certificate automation .
-
-- **[Caddy](https://github.com/caddyserver/caddy)** — Web server with automatic HTTPS (Apache-2.0). **Full ARI support including the replaces field**—SSL automation "practically invisible" .
-
-- **[Traefik](https://github.com/traefik/traefik)** — Cloud-native reverse proxy with built-in ACME (MIT). **The best choice for Docker/Kubernetes container environments** .
-
-- **[Certify The Web](https://github.com/webprofusion/certify)** — Windows GUI ACME client (open-source). **Full ARI support including the replaces field** .
-
-- **[Czertainly](https://github.com/3keycompany/czertainly)** — Open-source CLM platform. **On-premise, OCSP, HSM integration, ACME/EST/SCEP support** .
-
-- Community **n8n** workflows for certificate expiry alerting and renewal orchestration.
-
-
-
-**Frameworks for building custom systems**: Combine **cert-manager** for Kubernetes-native automation with **Certimate** for cross-platform workflow orchestration, **ILM** for enterprise PKI with CBOM scanning, **lego** for multi-environment ACME, and **Vault PKI** for internal CA—creating a fully self-hosted, enterprise-grade certificate management platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Certificate management systems handling TLS keys and certificates must follow security best practices, including HSM integration for CA private keys and audit logging for compliance.
-
-- **Open-source certificate management is mature for ACME automation but limited for enterprise CLM.** Certbot, acme.sh, lego, and cert-manager are production-grade ACME clients . **But no open-source tool provides the central inventory, cross-system escalation, audit logging, multi-CA strategy management, or granular RBAC of commercial CLM platforms like Keyfactor or Venafi** . **The "structural limits" of standard clients are real**: no central inventory, no cross-system escalation, limited audit logging, and difficult multi-CA strategies .
-
-- **ARI support is now a baseline requirement, not a nice-to-have.** After the March–April 2026 mass revocation events, clients without ARI support leave operators scrambling . **Caddy, lego, win-acme, and Certify The Web have full ARI support**. **Certbot has partial ARI (v4.1.0+)**. **acme.sh and cert-manager have none** . **For Certbot users: upgrade to v4.1.0+ and increase the systemd timer to every 6 hours** .
-
-- **The 47-day certificate timeline makes automation mandatory.** "The move to 47-day (and eventually shorter) certificates means automation isn't optional—it's the baseline requirement for any certificate management approach" . **Manual renewal processes cannot keep pace.**
-
-- **Self-hosted open-source solutions require proper CA key management, HSM integration where required, and ongoing maintenance.** **CA private keys are the root of trust**—compromise undermines every certificate issued.
-
-
+21. **[SimpleCA](https://github.com/waucka/simpleca)** [![GitHub stars](https://img.shields.io/github/stars/waucka/simpleca?style=social&color=white)](https://github.com/waucka/simpleca/stargazers)  
+    📁 **Zero-Friction SQLite-Backed Private CA Manager** (GPL-3.0)  
+    Simplifies private X.509 infrastructure without complex OpenSSL configuration files, supporting root/intermediate hierarchies, CRL generation, and PKCS#12 exports.
 
 ---
 
+### Enterprise Stacks & Specialized PKI Frameworks
 
+- **[Tiny-PKI](https://pypi.org/project/tiny-pki/)** — Python-based lightweight private CA library and CLI designed for mutual TLS (mTLS) on internal networks, supporting Name Constraints and PKCS#12 bundles.
+- **[certmesh](https://pypi.org/project/certmesh/)** — Multi-provider certificate lifecycle automation framework with built-in circuit breakers, Prometheus Pushgateway metrics, and export destinations to Vault KV, AWS Secrets Manager, and local disks.
+- **[Secutor](https://www.npmjs.com/package/secutor)** — Self-contained PKI CLI toolkit supporting RSA, ECDSA, and Ed25519 with AES-256-GCM encrypted operational contexts.
 
-**Made for platform engineers, SREs, and security teams building transparent certificate management solutions.**  
+---
 
-Let's make Certificate Management more open, data-driven, and ACME-native.
+## 🤝 How to Contribute
+
+We welcome contributions from DevOps engineers, PKI architects, and open-source maintainers!
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-clm-tool`).
+3. 📝 **Add or update the entry** in `README.md` following the established table or star-ranked format. Keep technical descriptions accurate, factual, and neutral.
+4. 🚀 **Submit a Pull Request** with a concise description of your additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated resource helpful for your infrastructure or security workflows:
+
+- ⭐ **Star this repository** to help other platform engineers discover it!
+- 🍴 **Fork it** to maintain your own internal PKI checklist.
+- 📢 **Share it** on LinkedIn, X/Twitter, Discord, and Reddit.
+- ☕ **Support the maintainer**: Buy a coffee or sponsor ongoing maintenance on the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+Thank you to everyone in the cybersecurity, SRE, and open-source communities for keeping the web secure and automated! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Certificate-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Certificate-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer & Architectural Insights
+
+- 📌 **Community-Curated**: This repository is a community-driven technical directory provided for informational purposes; entries do not constitute direct endorsements.
+- 🔐 **Security & HSM Root of Trust**: Managing private keys requires rigorous access controls. Production enterprise PKI authorities should utilize FIPS 140-2/3 Level 3 Hardware Security Modules (HSMs) and maintain immutable audit logging.
+- ⚡ **ARI (ACME Renewal Information - RFC 9636) is Mandatory**: Following modern mass-revocation incidents, ACME clients must support ARI to handle sudden CA-initiated certificate replacements without manual intervention.
+- ⏳ **The Short-Lived Certificate Era**: With industry roadmaps reducing TLS certificate validity to 45–47 days, automated lifecycle management is no longer optional—it is a core infrastructure requirement.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for platform engineers, SREs, and security teams worldwide.</b><br>
+  <i>Let's make Certificate Lifecycle Management automated, transparent, and resilient.</i>
+</p>

@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="badge-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filter for Glow effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .bg { fill: url(#bg-grad); }
+    .grid-line { stroke: #1e293b; stroke-width: 1; stroke-opacity: 0.6; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 46px; font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 400; fill: #94a3b8; }
+    .tagline { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #38bdf8; text-transform: uppercase; letter-spacing: 2px; }
+    .pill-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #e2e8f0; }
+
+    /* Animated Flows & Nodes in the background */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.25; transform: scale(1); }
+      50% { opacity: 0.55; transform: scale(1.08); }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      50% { transform: translateY(-12px) translateX(8px); opacity: 0.8; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    }
+
+    .pulse-circle { transform-origin: center; animation: pulseGlow 6s ease-in-out infinite; }
+    .data-flow { stroke-dasharray: 8, 8; animation: dashMove 14s linear infinite; }
+    .particle-1 { animation: floatParticle 5s ease-in-out infinite; }
+    .particle-2 { animation: floatParticle 7s ease-in-out infinite 1.5s; }
+    .particle-3 { animation: floatParticle 6s ease-in-out infinite 3s; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="16" class="bg" />
+
+  <!-- Subtle Matrix / Grid Background -->
+  <g class="grid-line">
+    <line x1="0" y1="85" x2="1200" y2="85" />
+    <line x1="0" y1="170" x2="1200" y2="170" />
+    <line x1="0" y1="255" x2="1200" y2="255" />
+    <line x1="200" y1="0" x2="200" y2="340" />
+    <line x1="400" y1="0" x2="400" y2="340" />
+    <line x1="600" y1="0" x2="600" y2="340" />
+    <line x1="800" y1="0" x2="800" y2="340" />
+    <line x1="1000" y1="0" x2="1000" y2="340" />
+  </g>
+
+  <!-- Dynamic / Animated Background Elements (Placed in background & on the right so title stays crisp) -->
+  <circle cx="1020" cy="170" r="130" fill="#38bdf8" class="pulse-circle" opacity="0.15" filter="url(#glow)" />
+  <circle cx="880" cy="110" r="80" fill="#818cf8" class="pulse-circle" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Circuit / Flow connection paths in background -->
+  <path d="M 750,230 C 850,230 870,160 970,160 S 1080,240 1150,240" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4" class="data-flow" />
+  <path d="M 800,100 C 880,100 920,200 1010,200 S 1100,120 1170,120" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.3" class="data-flow" />
+
+  <!-- Floating Dynamic Particle Nodes -->
+  <circle cx="780" cy="180" r="4" fill="#38bdf8" class="particle-1" />
+  <circle cx="940" cy="90" r="5" fill="#c084fc" class="particle-2" />
+  <circle cx="1060" cy="220" r="4" fill="#818cf8" class="particle-3" />
+  <circle cx="1120" cy="140" r="3" fill="#38bdf8" class="particle-1" />
+
+  <!-- Visual Holographic Security Shield Graphic on the Right -->
+  <g transform="translate(970, 115)">
+    <!-- Hexagonal / Shield Outer Layer -->
+    <path d="M 50,-50 L 100,-20 L 100,40 L 50,80 L 0,40 L 0,-20 Z" fill="url(#shield-grad)" opacity="0.85" filter="url(#glow)" />
+    <!-- Lock / Certificate Key Icon inside -->
+    <path d="M 40,0 L 60,0 C 64,0 67,3 67,7 L 67,14 L 69,14 C 71,14 73,16 73,18 L 73,38 C 73,40 71,42 69,42 L 31,42 C 29,42 27,40 27,38 L 27,18 C 27,16 29,14 31,14 L 33,14 L 33,7 C 33,3 36,0 40,0 Z M 40,6 C 39,6 38,7 38,8 L 38,14 L 62,14 L 62,8 C 62,7 61,6 60,6 Z" fill="#ffffff" />
+    <circle cx="50" cy="27" r="3.5" fill="#0284c7" />
+  </g>
+
+  <!-- Foreground Content: Brand, Title, Subtitle, Badges (Crisp and Unobscured) -->
+  <g transform="translate(80, 0)">
+    <!-- Tagline Badge -->
+    <g transform="translate(0, 56)">
+      <rect width="250" height="28" rx="14" fill="url(#badge-glow)" stroke="#0284c7" stroke-width="1" />
+      <circle cx="14" cy="14" r="5" fill="#38bdf8" />
+      <text x="27" y="19" class="tagline">Enterprise &amp; Open-Source</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="132" class="title">
+      Awesome Certificate Management 🔐
+    </text>
+
+    <!-- Subtitle / Mission -->
+    <text x="0" y="172" class="subtitle">
+      Curated Ecosystem for CLM, Automated ACME PKI, and Cryptographic Agility
+    </text>
+
+    <!-- Capability Feature Badges / Highlights -->
+    <g transform="translate(0, 218)">
+      <!-- Pill 1: ACME Automation -->
+      <g transform="translate(0, 0)">
+        <rect width="168" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+        <circle cx="20" cy="18" r="4.5" fill="#10b981" />
+        <text x="32" y="22" class="pill-text">⚡ ACME &amp; RFC 8555</text>
+      </g>
+
+      <!-- Pill 2: Private PKI -->
+      <g transform="translate(182, 0)">
+        <rect width="186" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+        <circle cx="20" cy="18" r="4.5" fill="#38bdf8" />
+        <text x="32" y="22" class="pill-text">🛡️ Private PKI &amp; HSM</text>
+      </g>
+
+      <!-- Pill 3: Post-Quantum Cryptography -->
+      <g transform="translate(382, 0)">
+        <rect width="180" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+        <circle cx="20" cy="18" r="4.5" fill="#c084fc" />
+        <text x="32" y="22" class="pill-text">🔮 PQC &amp; CBOM Ready</text>
+      </g>
+
+      <!-- Pill 4: Zero Trust -->
+      <g transform="translate(576, 0)">
+        <rect width="160" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+        <circle cx="20" cy="18" r="4.5" fill="#f59e0b" />
+        <text x="32" y="22" class="pill-text">🚀 Zero-Trust Identity</text>
+      </g>
+    </g>
+
+    <!-- Bottom Accent Gradient Line -->
+    <rect x="0" y="280" width="620" height="3" rx="1.5" fill="url(#primary-glow)" />
+  </g>
+</svg>
