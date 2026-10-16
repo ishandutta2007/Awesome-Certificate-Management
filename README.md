@@ -42,65 +42,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+| Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier Limits | Key Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/)** | **~$3.1 Trillion** market cap (Microsoft) / **$245B+** annual revenue | **$0.03** per 10,000 operations; **$3.00** per certificate auto-renewal | **Pay-as-you-go with $0 base fee**; certificate storage is free forever ($200 credit in 30-day Azure free account) | Integrated certificate management with Azure services, Managed HSM (FIPS 140-2 Level 3), Entra RBAC, and auto-rotation. |
+| **[AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)** | **~$2.0 Trillion** market cap (Amazon) / **$600B+** annual revenue | **$0.00** for public SSL/TLS certs on integrated services; Private CA starts at **$400/month** (or **$50/month** for short-lived mode) | **Unlimited free public SSL/TLS certs** provisioned on AWS services (ALB, CloudFront, API Gateway); **30-day free trial** for 1st Private CA | Automated generation, validation, and auto-renewal for AWS endpoints; ACM Private CA for enterprise internal PKI. |
+| **[HashiCorp Vault](https://www.hashicorp.com/products/vault)** | **$6.4 Billion** acquisition enterprise value (IBM) | **$0.62/hour** (~**$45/month**) for HCP Vault Dedicated Dev cluster (single node, up to 25 clients) | **Self-hosted Vault Community Edition is free forever** (BSL 1.1 license); **$500 free trial credits** on HCP Vault | Secrets management with PKI secrets engine for dynamic internal CA, ACME support, and multi-cloud secrets automation. |
+| **[DigiCert Trust Lifecycle Manager](https://www.digicert.com/)** | **~$8.0 Billion** valuation (Clearlake / TA Associates) | **~$7,900/year** baseline subscription for unified seat tiers (Essentials plan) | **No self-serve free tier** (custom guided enterprise demo / PoC available on request) | CLM with strong PQC research track record, deep CA integration, and unified seat management across domains and servers. |
+| **[Venafi (CyberArk)](https://www.venafi.com/)** | **$1.54 Billion** acquisition price (CyberArk ARR: **~$150M**; CyberArk acquired for **$25B**) | **~$75,000/year** baseline entry contract tier for enterprise CLM | **30-day free trial** for TLS Protect Cloud / SaaS (enterprise on-premises TPP requires guided PoC) | Enterprise machine identity management, deep Windows/Active Directory support, TLS Protect, SSH Protect, and Firefly CA service. |
+| **[Keyfactor](https://www.keyfactor.com/)** | **$1.3 Billion** valuation (Unicorn) / **$200M+** ARR | **~$50,000/year** base platform license (or hourly via AWS/Azure EJBCA Cloud pay-as-you-go) | **Open-source EJBCA Community is free forever**; **30-day free trial** on AWS/Azure Cloud marketplaces; timed Azure Test Drive for Command | Pragmatic enterprise CLM providing Keyfactor Command + EJBCA PKI, advanced PQC readiness, and migration tooling from Venafi. |
+| **[Sectigo Certificate Manager](https://www.sectigo.com/)** | **$900 Million** acquisition valuation (GI Partners) / **~$90M+** revenue | **$25/month** (or **$250/year**) for SCM Pro starting tier | **30-day free trial** for Sectigo Certificate Manager (up to discovery and test certificate issuance limits) | Enterprise certificate lifecycle management, automated discovery, expiration monitoring, and cost-effective commercial CA integration. |
+| **[Entrust Certificate Services](https://www.entrust.com/)** | **~$900 Million** annual revenue ($883M–$916M) | **$24 to $700+/year** for individual certs; enterprise platform subscriptions start at custom annual tiers | **No direct free tier for ECS platform** (60-day trial for adjacent Instant IDaaS; custom PoC sandbox via sales) | Enterprise certificate management with nCipher HSM integration, identity validation, and comprehensive PKI services. |
+| **[GlobalSign Atlas](https://www.globalsign.com/)** | **~$160 Million** market cap (GMO GlobalSign Holdings TYO:3788 / ~¥22.5B–¥27B JPY) | **$199/year** baseline starting certificate packs (enterprise high-throughput Atlas CA via custom tiers) | **No self-serve free tier** (sales-assisted Proof of Concept / sandbox environment upon request) | High-throughput, cloud-based certificate management engine with automated issuance, ACME protocols, and Auto-Enrollment Gateway. |
+| **[AppViewX](https://www.appviewx.com/)** | **~$100 Million** valuation / **~$100M–$133M** annual revenue (Haveli Investments) | **~$15,000/year** entry SaaS tier on AWS Marketplace private offers / pre-packaged CLM | **30-day free trial** for AVX ONE on AWS Marketplace; free container certificate tracking add-on for EKS | PKI and CLM with strong PQC readiness score, Cryptographic Bill of Materials generation, and cloud-delivered automation. |
 
-
-- **[Venafi (CyberArk)](https://www.venafi.com/)**  
-
-  **Enterprise machine identity management** with the deepest Windows/Active Directory ecosystem support and proven scalability to 100K+ certificates . Features **TLS Protect** for certificate lifecycle management, **SSH Protect** for SSH key management, and **Firefly** for certificate authority service. **The premium choice** for highly regulated enterprises—typically the most expensive option .
-
-
-
-- **[AppViewX](https://www.appviewx.com/)**  
-
-  **PKI and certificate lifecycle management with strong PQC readiness**. **AVX ONE** discovers public and private trust certificates, automates provisioning and renewal, and enforces enterprise PKI policy . **PQC Assessment Tool** produces a Cryptographic Bill of Materials and a readiness score—a differentiator few competitors match . **Cloud-delivered and automation-first**, designed for CI/CD-driven environments .
-
-
-
-- **[Keyfactor](https://www.keyfactor.com/)**  
-
-  **The pragmatic enterprise choice**—provides roughly **80% of Venafi's functionality at 50–60% of the price** . **Keyfactor Command** for CLM plus **EJBCA** for integrated PKI from one vendor. **Leads in PQC readiness** following 2025 acquisitions of InfoSec Global and CipherInsights for advanced cryptographic discovery . **The most common migration target from Venafi**—dedicated migration tooling available .
-
-
-
-- **[Sectigo Certificate Manager](https://www.sectigo.com/)**  
-
-  Enterprise certificate lifecycle management with automated discovery, expiration monitoring, and certificate operations . **The most cost-effective commercial option** for organizations already using Sectigo as their CA.
-
-
-
-- **[DigiCert Trust Lifecycle Manager](https://www.digicert.com/)**  
-
-  Certificate lifecycle management with **strong PQC research track record** and deep CA integration . **The natural choice** for organizations using DigiCert as their primary CA.
-
-
-
-- **[Entrust Certificate Services](https://www.entrust.com/)**  
-
-  Enterprise certificate management with **HSM integration** and comprehensive PKI services.
-
-
-
-- **[GlobalSign Atlas](https://www.globalsign.com/)**  
-
-  Cloud-based certificate management platform with automated issuance, renewal, and discovery.
-
-
-
-- **[AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)**  
-
-  **Free public certificates** for AWS services. **ACM Private CA** for internal PKI. **Deep integration with AWS ecosystem**—ALB, CloudFront, API Gateway.
-
-
-
-- **[Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/)**  
-
-  **Certificate management integrated with Azure services**. Features **Managed HSM tier** (FIPS 140-2 Level 3), automatic rotation, and Entra RBAC.
-
-
-
-- **[HashiCorp Vault](https://www.hashicorp.com/products/vault)**  
-
-  **Secrets management with PKI secrets engine** for internal certificate authority. **ACME support via PKI secrets engine** . **The foundation for many open-source certificate workflows**.
 
 
 
