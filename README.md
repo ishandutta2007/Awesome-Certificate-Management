@@ -67,7 +67,7 @@ The sector is **moderately fragmented with strong consolidation dynamics**, char
 
 ## 💻 Open-Source GitHub Projects
 
-All open-source projects are sorted in **descending order by GitHub Stars_Count**. Each Stars_Badge links directly to the stargazers page of the repository.
+All open-source projects are sorted in **descending order by GitHub_Stars_Count**. Each Stars_Badge links directly to the stargazers page of the repository.
 
 ### Top Projects (Ranked by Stars)
 
