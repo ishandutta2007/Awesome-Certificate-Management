@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Certificate-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Certificate-Management?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Certificate-Management?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Certificate-Management?style=flat-square" alt="Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Certificate-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Certificate-Management?style=flat-square" alt="License" /></a>
@@ -67,91 +67,91 @@ The sector is **moderately fragmented with strong consolidation dynamics**, char
 
 ## 💻 Open-Source GitHub Projects
 
-All open-source projects are sorted in **descending order by GitHub star count**. Each star badge links directly to the stargazers page of the repository.
+All open-source projects are sorted in **descending order by GitHub Stars_Count**. Each Stars_Badge links directly to the stargazers page of the repository.
 
 ### Top Projects (Ranked by Stars)
 
-1. **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+1. **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
    ⚡ **Modern Web Server with Automatic HTTPS** (Apache-2.0)  
    The pioneer of default zero-touch TLS automation. Caddy provisions, renews, and staples OCSP responses for certificates out-of-the-box. Features **full ACME Renewal Information (ARI) support** including automatic handling of CA-initiated mass revocation events.
 
-2. **[Traefik](https://github.com/traefik/traefik)** [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+2. **[Traefik](https://github.com/traefik/traefik)** [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
    🚀 **Cloud-Native Reverse Proxy & Ingress Controller** (MIT)  
    Seamlessly integrates with Docker, Swarm, Kubernetes, Consul, and AWS to dynamically configure routing and negotiate TLS certificates via ACME (Let's Encrypt, ZeroSSL, custom ACME servers).
 
-3. **[mkcert](https://github.com/FiloSottile/mkcert)** [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/mkcert?style=social&color=white)](https://github.com/FiloSottile/mkcert/stargazers)  
+3. **[mkcert](https://github.com/FiloSottile/mkcert)** [![GitHub_Stars](https://img.shields.io/github/stars/FiloSottile/mkcert?style=social&color=white)](https://github.com/FiloSottile/mkcert/stargazers)  
    🔒 **Zero-Config Tool for Locally-Trusted Development Certificates** (BSD-3-Clause)  
    Automatically creates and installs a local CA in the system trust store and browser root stores (Firefox, Chrome), issuing valid certificates for `localhost` and local domains with zero configuration.
 
-4. **[acme.sh](https://github.com/acmesh-official/acme.sh)** [![GitHub stars](https://img.shields.io/github/stars/acmesh-official/acme.sh?style=social&color=white)](https://github.com/acmesh-official/acme.sh/stargazers)  
+4. **[acme.sh](https://github.com/acmesh-official/acme.sh)** [![GitHub_Stars](https://img.shields.io/github/stars/acmesh-official/acme.sh?style=social&color=white)](https://github.com/acmesh-official/acme.sh/stargazers)  
    🐚 **Pure Unix Shell ACME Client with Zero External Dependencies** (GPL-3.0)  
    Ultra-lightweight ACME client compatible with Bash, Dash, and Sh. Features out-of-the-box DNS automation supporting **150+ DNS APIs**, ideal for embedded systems, OpenWrt routers, and shared hosting.
 
-5. **[HashiCorp Vault](https://github.com/hashicorp/vault)** [![GitHub stars](https://img.shields.io/github/stars/hashicorp/vault?style=social&color=white)](https://github.com/hashicorp/vault/stargazers)  
+5. **[HashiCorp Vault](https://github.com/hashicorp/vault)** [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/vault?style=social&color=white)](https://github.com/hashicorp/vault/stargazers)  
    🛡️ **Identity-Based Secrets Management & Dynamic PKI Secrets Engine** (BSL-1.1)  
    Functions as an on-demand private Certificate Authority capable of issuing dynamic, short-lived X.509 certificates with built-in ACME server capabilities and CRL/OCSP management.
 
-6. **[Certbot](https://github.com/certbot/certbot)** [![GitHub stars](https://img.shields.io/github/stars/certbot/certbot?style=social&color=white)](https://github.com/certbot/certbot/stargazers)  
+6. **[Certbot](https://github.com/certbot/certbot)** [![GitHub_Stars](https://img.shields.io/github/stars/certbot/certbot?style=social&color=white)](https://github.com/certbot/certbot/stargazers)  
    📜 **EFF’s Flagship Automated ACME Client** (Apache-2.0)  
    The reference ACME client maintained by the Electronic Frontier Foundation. Standard tool for Linux servers running Nginx and Apache. Version 4.1.0+ includes partial ACME Renewal Information (ARI) support.
 
-7. **[cert-manager](https://github.com/cert-manager/cert-manager)** [![GitHub stars](https://img.shields.io/github/stars/cert-manager/cert-manager?style=social&color=white)](https://github.com/cert-manager/cert-manager/stargazers)  
+7. **[cert-manager](https://github.com/cert-manager/cert-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/cert-manager/cert-manager?style=social&color=white)](https://github.com/cert-manager/cert-manager/stargazers)  
    ☸️ **The De Facto Standard Cloud-Native Certificate Controller for Kubernetes** (Apache-2.0)  
    Manages TLS certificates natively in Kubernetes via Custom Resource Definitions (`Certificate`, `Issuer`, `ClusterIssuer`). Integrates with Let's Encrypt, HashiCorp Vault, Venafi, and external private CAs.
 
-8. **[lego](https://github.com/go-acme/lego)** [![GitHub stars](https://img.shields.io/github/stars/go-acme/lego?style=social&color=white)](https://github.com/go-acme/lego/stargazers)  
+8. **[lego](https://github.com/go-acme/lego)** [![GitHub_Stars](https://img.shields.io/github/stars/go-acme/lego?style=social&color=white)](https://github.com/go-acme/lego/stargazers)  
    🐹 **Pure Go ACME Client Library and CLI** (MIT)  
    The underlying engine powering ACME in Caddy, Traefik, and countless microservices. Features full ARI support (including replacement tracking) and over 100 DNS challenge providers.
 
-9. **[CFSSL](https://github.com/cloudflare/cfssl)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/cfssl?style=social&color=white)](https://github.com/cloudflare/cfssl/stargazers)  
+9. **[CFSSL](https://github.com/cloudflare/cfssl)** [![GitHub_Stars](https://img.shields.io/github/stars/cloudflare/cfssl?style=social&color=white)](https://github.com/cloudflare/cfssl/stargazers)  
    🌐 **Cloudflare's PKI and TLS Toolkit** (BSD-2-Clause)  
    A battle-tested Go-based suite for signing, verifying, and bundling TLS certificates, serving as an HTTP API-driven PKI daemon and internal CA for high-scale microservices.
 
-10. **[Certimate](https://github.com/certimate-go/certimate)** [![GitHub stars](https://img.shields.io/github/stars/certimate-go/certimate?style=social&color=white)](https://github.com/certimate-go/certimate/stargazers)  
+10. **[Certimate](https://github.com/certimate-go/certimate)** [![GitHub_Stars](https://img.shields.io/github/stars/certimate-go/certimate?style=social&color=white)](https://github.com/certimate-go/certimate/stargazers)  
     🎨 **Open-Source SSL Automation with Visual Workflow Orchestration** (MIT)  
     Self-hosted CLM providing visual pipelines to apply, renew, and auto-deploy certificates across 70+ domain providers and 160+ target destinations (Cloudflare, AWS, Kubernetes, CDN, WAF) with 20MB RAM footprint.
 
-11. **[step-ca (smallstep certificates)](https://github.com/smallstep/certificates)** [![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers)  
+11. **[step-ca (smallstep certificates)](https://github.com/smallstep/certificates)** [![GitHub_Stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers)  
     🔑 **Automated Private Certificate Authority & Zero-Trust PKI** (Apache-2.0)  
     A versatile private CA supporting ACME, OAuth/OIDC, SCEP, and EST. Built for DevOps, automated microservice mTLS, SSH certificates, and zero-trust perimeter security.
 
-12. **[win-acme](https://github.com/win-acme/win-acme)** [![GitHub stars](https://img.shields.io/github/stars/win-acme/win-acme?style=social&color=white)](https://github.com/win-acme/win-acme/stargazers)  
+12. **[win-acme](https://github.com/win-acme/win-acme)** [![GitHub_Stars](https://img.shields.io/github/stars/win-acme/win-acme?style=social&color=white)](https://github.com/win-acme/win-acme/stargazers)  
     🪟 **ACME Client for Windows Server & IIS** (Apache-2.0)  
     The premier certificate automation tool for Windows systems with IIS binding management, scheduled tasks, and full ARI support for seamless automated rotation.
 
-13. **[easy-rsa](https://github.com/OpenVPN/easy-rsa)** [![GitHub stars](https://img.shields.io/github/stars/OpenVPN/easy-rsa?style=social&color=white)](https://github.com/OpenVPN/easy-rsa/stargazers)  
+13. **[easy-rsa](https://github.com/OpenVPN/easy-rsa)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenVPN/easy-rsa?style=social&color=white)](https://github.com/OpenVPN/easy-rsa/stargazers)  
     🗝️ **CLI-Based CA Management Tool** (GPL-2.0)  
     Maintained by the OpenVPN project, easy-rsa simplifies managing an internal X.509 PKI, creating root/intermediate CAs, key pairs, and certificate revocation lists (CRLs).
 
-14. **[Lemur (Netflix)](https://github.com/Netflix/lemur)** [![GitHub stars](https://img.shields.io/github/stars/Netflix/lemur?style=social&color=white)](https://github.com/Netflix/lemur/stargazers)  
+14. **[Lemur (Netflix)](https://github.com/Netflix/lemur)** [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/lemur?style=social&color=white)](https://github.com/Netflix/lemur/stargazers)  
     🎬 **Enterprise TLS Certificate Orchestration & Inventory Plane** (Apache-2.0)  
     Netflix's certificate orchestrator acting as a single pane of glass for requesting, tracking, and deploying certificates across AWS IAM, ALB, CloudFront, and internal infrastructure.
 
-15. **[Certify The Web](https://github.com/webprofusion/certify)** [![GitHub stars](https://img.shields.io/github/stars/webprofusion/certify?style=social&color=white)](https://github.com/webprofusion/certify/stargazers)  
+15. **[Certify The Web](https://github.com/webprofusion/certify)** [![GitHub_Stars](https://img.shields.io/github/stars/webprofusion/certify?style=social&color=white)](https://github.com/webprofusion/certify/stargazers)  
     🖥️ **GUI Certificate Management Client for Windows** (Open-Source Core)  
     Feature-rich desktop and server UI for managing Let's Encrypt and custom ACME certificates on Windows and IIS servers with built-in deployment scripting.
 
-16. **[Certmate](https://github.com/fabriziosalmi/certmate)** [![GitHub stars](https://img.shields.io/github/stars/fabriziosalmi/certmate?style=social&color=white)](https://github.com/fabriziosalmi/certmate/stargazers)  
+16. **[Certmate](https://github.com/fabriziosalmi/certmate)** [![GitHub_Stars](https://img.shields.io/github/stars/fabriziosalmi/certmate?style=social&color=white)](https://github.com/fabriziosalmi/certmate/stargazers)  
     📦 **Lightweight Self-Hosted CLM Daemon** (Open-Source)  
     Secure, low-privilege systemd background service providing automated discovery, inventory tracking, renewal, and REST API controls for TLS certificates.
 
-17. **[trust-manager](https://github.com/cert-manager/trust-manager)** [![GitHub stars](https://img.shields.io/github/stars/cert-manager/trust-manager?style=social&color=white)](https://github.com/cert-manager/trust-manager/stargazers)  
+17. **[trust-manager](https://github.com/cert-manager/trust-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/cert-manager/trust-manager?style=social&color=white)](https://github.com/cert-manager/trust-manager/stargazers)  
     🤝 **Operator for Trust Bundle Distribution across Kubernetes** (Apache-2.0)  
     A cert-manager sub-project that distributes and harmonizes public and internal root certificates across all Kubernetes namespaces and pods without secret duplication.
 
-18. **[ILM (Identity Lifecycle Management)](https://github.com/OmniTrustILM/ilm)** [![GitHub stars](https://img.shields.io/github/stars/OmniTrustILM/ilm?style=social&color=white)](https://github.com/OmniTrustILM/ilm/stargazers)  
+18. **[ILM (Identity Lifecycle Management)](https://github.com/OmniTrustILM/ilm)** [![GitHub_Stars](https://img.shields.io/github/stars/OmniTrustILM/ilm?style=social&color=white)](https://github.com/OmniTrustILM/ilm/stargazers)  
     🏢 **Modular Enterprise Identity, Vault & CBOM Platform** (Apache-2.0)  
     Enterprise PKI platform featuring Cryptographic Bill of Materials (CBOM) scanning, RA and Token profiles, cert-manager external issuers, and connectors for EJBCA and MS ADCS.
 
-19. **[Czertainly](https://github.com/3keycompany/czertainly)** [![GitHub stars](https://img.shields.io/github/stars/3keycompany/czertainly?style=social&color=white)](https://github.com/3keycompany/czertainly/stargazers)  
+19. **[Czertainly](https://github.com/3keycompany/czertainly)** [![GitHub_Stars](https://img.shields.io/github/stars/3keycompany/czertainly?style=social&color=white)](https://github.com/3keycompany/czertainly/stargazers)  
     🏛️ **Comprehensive Enterprise CLM Platform** (MIT)  
     On-premise and containerized CLM supporting hardware security modules (HSM), automated discovery, compliance enforcement, and ACME, EST, and SCEP protocols.
 
-20. **[PKI Manager Web](https://github.com/oriolrius/pki-manager-web)** [![GitHub stars](https://img.shields.io/github/stars/oriolrius/pki-manager-web?style=social&color=white)](https://github.com/oriolrius/pki-manager-web/stargazers)  
+20. **[PKI Manager Web](https://github.com/oriolrius/pki-manager-web)** [![GitHub_Stars](https://img.shields.io/github/stars/oriolrius/pki-manager-web?style=social&color=white)](https://github.com/oriolrius/pki-manager-web/stargazers)  
     🌐 **Self-Hosted Web Interface for Combined X.509 & SSH CAs** (Open-Source)  
     Integrates OpenSSH User and Host CAs with X.509 issuance, Cosmian KMS private key storage, OIDC single sign-on, and Kubernetes external issuer APIs.
 
-21. **[SimpleCA](https://github.com/waucka/simpleca)** [![GitHub stars](https://img.shields.io/github/stars/waucka/simpleca?style=social&color=white)](https://github.com/waucka/simpleca/stargazers)  
+21. **[SimpleCA](https://github.com/waucka/simpleca)** [![GitHub_Stars](https://img.shields.io/github/stars/waucka/simpleca?style=social&color=white)](https://github.com/waucka/simpleca/stargazers)  
     📁 **Zero-Friction SQLite-Backed Private CA Manager** (GPL-3.0)  
     Simplifies private X.509 infrastructure without complex OpenSSL configuration files, supporting root/intermediate hierarchies, CRL generation, and PKCS#12 exports.
 
